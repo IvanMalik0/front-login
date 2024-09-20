@@ -2,6 +2,8 @@
 
 ```
 docker build -t frontend-app
+или
+docker build -t frontend-app -f /path/to/Dockerfile /path/to/front-login
 ```
 
 Запустите контейнер с маппингом порта:
